@@ -37,16 +37,16 @@ The following constants are in use in tsync files and will be referenced in the 
 
 ```cpp
 /**
-    * Timepoint storage of a TSync file
-    */
+ * Timepoint storage of a TSync file
+ */
 enum class TSyncFileMode {
     CONTINUOUS = 0, /// Continous time-point mapping with no gaps
     SYNCPOINTS = 1  /// Only synchronization points are saved
 };
 
 /**
-    * Unit types for time representation in a TSync file
-    */
+ * Unit types for time representation in a TSync file
+ */
 enum class TSyncFileTimeUnit {
     INDEX = 0, /// monotonically increasing counter without dimension
     NANOSECONDS = 1,
@@ -56,8 +56,8 @@ enum class TSyncFileTimeUnit {
 };
 
 /**
-    * Data types use for storing time values in the data file.
-    */
+ * Data types use for storing time values in the data file.
+ */
 enum class TSyncFileDataType {
     INVALID = 0,
     INT16 = 2,
